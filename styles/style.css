@@ -43,6 +43,7 @@ h2 {
 }
 
 h3 {
+  color: purple;
   margin: 10px 0px;
 }
 
@@ -62,9 +63,6 @@ h3 {
   font-size: 2em;
   color: purple;
 }
-
-
-
 
 #intro {
   background-image: url("https://media.giphy.com/media/26gsoH4ZU5oeIYmBi/giphy.gif");
