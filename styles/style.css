@@ -1,0 +1,141 @@
+/* CSS reset */
+* {
+  /* remove spacing */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.5em
+}
+
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+section {
+  padding: 5vh 0;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+p a {
+  color: purple;
+}
+
+p a:hover {
+  color: white;
+  background-color: purple;
+}
+
+h1 {
+  color: purple;
+  font-family: 'Barrio', cursive;
+  font-size: 5em;
+  margin: 10px 0px;
+}
+
+h2 {
+  font-family: 'Barrio', cursive;
+  font-size: 3em;
+  margin: 10px 0px;
+}
+
+h3 {
+  margin: 10px 0px;
+}
+
+.left {
+  text-align: left;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fa {
+  font-size: 2em;
+  color: purple;
+}
+
+
+
+
+#intro {
+  background-image: url("https://media.giphy.com/media/26gsoH4ZU5oeIYmBi/giphy.gif");
+/* stretch image and stop it tiling */
+  background-size: cover;
+  /* full height background image
+  vh = viewport height and makes the image's height match the browser window, measured in percentage */
+  min-height: 100vh;
+  color: white;
+}
+
+header .fa {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 5em;
+  color: white;
+}
+
+#intro a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 15px;
+}
+
+#intro a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+#about {
+  background-color: purple;
+  padding: 50px;
+}
+
+section div {
+  margin: 0 auto;
+  width: 100%;
+  background-color: white;
+}
+
+#about div {
+  max-width: 720px;
+  padding: 20px;
+}
+
+.maps iframe {
+  pointer-events: none;
+}
+
+.width-80 {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#contact {
+  background-color: purple;
+  padding: 50px;
+  position: center;
+}
+
+#contact h2 {
+  color: white;
+}
+
+#contact a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
